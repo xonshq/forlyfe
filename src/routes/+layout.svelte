@@ -16,12 +16,9 @@
 			<img src={logo} alt="test" class="w-20 md:hidden" />
 			<img src={logoMd} alt="test" class="hidden w-40 md:block" />
 		</a>
-		<div class="flex items-center space-x-6">
-			<a href="/events">Events</a>
-
-			<a href="https://slack.com" target="_blank" class="flex items-center"
-				><SlackIcon class="mr-2 text-md" /><span>Community</span>
-			</a>
+		<div class="flex items-center space-x-6 text-xl font-bold">
+			<a href="/initiatives">Initiatives</a>
+			<a href="/about" target="_blank" class="flex items-center">About Us</a>
 		</div>
 	</div>
 </nav>
@@ -39,7 +36,7 @@
 			</h3>
 			<div class="flex flex-col space-y-1 text-xl">
 				<a href="/initiatives">Initiatives</a>
-				<a href="/initiatives">About</a>
+				<a href="/about">About</a>
 			</div>
 		</div>
 		<div>
