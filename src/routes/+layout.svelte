@@ -5,7 +5,7 @@
 	import SlackIcon from '~icons/devicon/Slack';
 </script>
 
-<nav class="m-auto block max-w-screen-2xl">
+<nav class="block m-auto max-w-screen-2xl">
 	<div class="flex items-center justify-between p-4">
 		<a href="/">
 			<img src={logo} alt="test" class="w-20 md:hidden" />
@@ -15,12 +15,12 @@
 			<a href="/events">Events</a>
 
 			<a href="https://slack.com" target="_blank" class="flex items-center"
-				><SlackIcon class="text-md mr-2" /><span>Community</span>
+				><SlackIcon class="mr-2 text-md" /><span>Community</span>
 			</a>
 		</div>
 	</div>
 </nav>
 
-<div class="m-auto h-20 max-w-screen-2xl p-4">
+<div class="h-full max-w-screen-lg p-6 pb-20 m-auto">
 	<slot />
 </div>

@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/jking/.nvm/versions/node/v16.19.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add -D @iconify/devicon
+  /Users/jking/.nvm/versions/node/v16.19.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add -D svelete-typewriter
 
 PATH: 
   /Users/jking/.nvm/versions/node/v16.19.0/bin:/Users/jking/.nvm/versions/node/v16.19.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/jking/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/jking/.nvm/versions/node/v16.19.0/bin:/Users/jking/.fig/bin:/Users/jking/.local/bin:
@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@iconify%2fdevicon: Not found
+  Error: https://registry.yarnpkg.com/svelete-typewriter: Not found
       at Request.params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
       at Request.self.callback (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
       at Request.emit (node:events:513:28)
@@ -41,7 +41,9 @@ npm manifest:
   		"format": "prettier --plugin-search-dir . --write ."
   	},
   	"devDependencies": {
+  		"@iconify-json/devicon": "^1.1.14",
   		"@sveltejs/adapter-auto": "^2.0.0",
+  		"@sveltejs/adapter-static": "^2.0.3",
   		"@sveltejs/kit": "^1.20.4",
   		"@typescript-eslint/eslint-plugin": "^5.45.0",
   		"@typescript-eslint/parser": "^5.45.0",
@@ -61,7 +63,8 @@ npm manifest:
   		"unplugin-icons": "^0.16.5",
   		"vite": "^4.4.2"
   	},
-  	"type": "module"
+  	"type": "module",
+  	"dependencies": {}
   }
 
 yarn manifest: 
@@ -264,7 +267,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
     integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
   
-  "@iconify/types@^2.0.0":
+  "@iconify-json/devicon@^1.1.14":
+    version "1.1.14"
+    resolved "https://registry.yarnpkg.com/@iconify-json/devicon/-/devicon-1.1.14.tgz#47b456c69740d1e2fa8d160ff9c08b619cff6134"
+    integrity sha512-QO7Dm4QOuaB/OPwpM+74ogiVwE7ttmEi8aaRnLJH+exZZ3kNnQBpRX+/RHWVFMQFDV4Q5Vo599Cw/o/vYjlU3w==
+    dependencies:
+      "@iconify/types" "*"
+  
+  "@iconify/types@*", "@iconify/types@^2.0.0":
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
     integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
@@ -350,6 +360,11 @@ Lockfile:
     integrity sha512-o2pZCfATFtA/Gw/BB0Xm7k4EYaekXxaPGER3xGSY3FvzFJGTlJlZjBseaXwYSM94lZ0HniOjTokN3cWaLX6fow==
     dependencies:
       import-meta-resolve "^3.0.0"
+  
+  "@sveltejs/adapter-static@^2.0.3":
+    version "2.0.3"
+    resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-2.0.3.tgz#616836c30bdce4d673a2e26c0f5ffbd5c1bc7c67"
+    integrity sha512-VUqTfXsxYGugCpMqQv1U0LIdbR3S5nBkMMDmpjGVJyM6Q2jHVMFtdWJCkeHMySc6mZxJ+0eZK3T7IgmUCDrcUQ==
   
   "@sveltejs/kit@^1.20.4":
     version "1.22.4"

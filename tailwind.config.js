@@ -2,7 +2,12 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				lora: ['Lora', 'serif'],
+				arimo: ['Arimo', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 };

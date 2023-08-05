@@ -1,9 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lora:wght@400;700&display=swap');
 
 @layer base {
 	body {
-		@apply antialiased;
+		@apply antialiased bg-slate-900 font-arimo text-slate-100;
+	}
+	h1,
+	h2,
+	h3 {
+		@apply font-bold font-lora;
 	}
 }
