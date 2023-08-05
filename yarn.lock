@@ -201,6 +201,20 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/logos@^1.1.33":
+  version "1.1.33"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.1.33.tgz#362c386c09aef04726abb3e7bf5c1a74880cf556"
+  integrity sha512-XHnob/dyib1oCaHZV0yRLXUfGQAr46pTuO/Y+jx9ImVBVb5jyZfJ+PLgro5pp8fyQkXWV2vq7pdR0yP5s4gcvg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/skill-icons@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@iconify-json/skill-icons/-/skill-icons-1.1.2.tgz#ed33e7e3ebaa28198d88662a1aa9c638a4cc3bf8"
+  integrity sha512-USuBvlGoOryx7EPCNGqJ2PohbNHRJ4wTl7druaarQglhiYYOw8B6UoDZhWWu6+xIy4vieRpmyYO7HVd6dI30Dg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
