@@ -23,7 +23,7 @@
 	</div>
 </nav>
 
-<div class="h-full max-w-screen-lg p-6 pb-20 m-auto">
+<div class="h-full max-w-screen-lg min-h-screen p-6 pb-20 m-auto">
 	<slot />
 </div>
 
