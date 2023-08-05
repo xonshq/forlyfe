@@ -10,7 +10,7 @@
 	import embark from '$lib/images/embark.jpeg';
 </script>
 
-<div class="h-screen pt-20 space-y-16 text-center md:pt-48">
+<div class="h-screen pt-20 mb-32 space-y-16 text-center md:pt-48">
 	<h1 class="text-5xl md:mb-20 md:text-7xl">
 		<ColoredText text="Explore Careers Through" />
 		<br />
@@ -30,7 +30,7 @@
 	</p>
 </div>
 
-<div class="mb-32 space-y-16 text-center">
+<div class="space-y-16 text-center">
 	<div>
 		<h1 class="mb-4 text-5xl md:text-7xl">
 			<ColoredText text="Our Journey" />
